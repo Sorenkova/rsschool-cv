@@ -61,7 +61,7 @@ setInterval(updateCountdown, 1000);
 * **Live Demo:** [Website](https://sorenkova.github.io/kitty-care)
 
 ### Education
-* **Linguist & Translator (English/German)** | Minsk Innovation University, 2018 – 2023
+* **Minsk Innovation University**: Linguist & Translator (English/German), 2018 – 2023
 * **RS School Course:** "Full-Stack JavaScript 2026 Q3" (In progress)
 
 ### English Language
