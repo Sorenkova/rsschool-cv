@@ -47,12 +47,18 @@ function updateCountdown() {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 ```
-### Work Experience
+### Work Experience & Projects
 **English Language Instructor (Online)** | *2021 – 2026*
 
 * Designed and delivered personalized curricula for 50+ students.
 * Managed remote classroom environments and technical platforms.
 * Developed strong self-discipline and remote communication skills.
+
+#### **Маркиз | Инструкция по применению**
+* **Description:** A mobile-friendly website with cat care instructions and a sitter checklist, featuring an interactive timer for feeding and care routines.
+* **Tech Stack:** HTML5, CSS3, JavaScript
+* **Repository:** [GitHub Code](https://github.com/Sorenkova/kitty-care/)
+* **Live Demo:** [Website](https://sorenkova.github.io/kitty-care)
 
 ### Education
 * **Linguist & Translator (English/German)** | Minsk Innovation University, 2018 – 2023
