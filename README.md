@@ -1,2 +1,2 @@
 # rsschool-cv
-**CV Link:** [https://sorenkova.github.io/rsschool-cv/cv.md](https://sorenkova.github.io/rsschool-cv/cv.md)
+**CV Link:** [https://sorenkova.github.io/rsschool-cv/cv](https://sorenkova.github.io/rsschool-cv/cv)
