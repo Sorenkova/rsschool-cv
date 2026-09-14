@@ -27,28 +27,67 @@
     <main>
         <div class="container">
             <section id="profile">
-                <h1></h1>
-                <p></p>
+                <h1>Yauheniya Sarankova</h1>
+                <p>Junior Frontend Developer</p>
+                <img src="assets/img/profile_pic.webp" alt="Profile picture of Yauheniya Sarankova">
             </section>
 
             <section id="contacts">
                 <h2>Contact Information</h2>
-                <ul></ul>
+                <ul>
+                    <li><strong>Telegram:</strong> <a href="https://t.me/sorenkova" target="_blank" rel="noopener noreferrer">@sorenkova</a></li>
+                    <li><strong>Email:</strong> <a href="mailto:sorenkova@gmail.com">sorenkova@gmail.com</a></li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/sorenkova" target="_blank" rel="noopener noreferrer">github.com/sorenkova</a></li>
+                    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sorenkova" target="_blank" rel="noopener noreferrer">linkedin.com/in/sorenkova</a></li>
+                    <li><strong>Discord:</strong> @sorenkova</li>
+                </ul>
             </section>
 
             <section id="summary">
                 <h2>Brief Self-Introduction</h2>
-                <p></p>
+                <p>Motivated Junior Frontend Developer transitioning from a background in linguistics and education. I am passionate about creating clean, accessible, and user-friendly web interfaces. My 5-year experience as an online English tutor has improved my ability to explain complex topics, manage remote workflows, and collaborate effectively. I am eager to apply my analytical skills and dedication to learning in a professional development environment.</p>
             </section>
 
             <section id="skills">
                 <h2>Skills</h2>
-                <ul></ul>
+                <ul>
+                    <li><strong>Languages:</strong> HTML5, CSS3, JavaScript (Basics)</li>
+                    <li><strong>Tools:</strong> Git, GitHub, VS Code</li>
+                    <li><strong>Methodologies:</strong> Responsive Web Design</li>
+                </ul>
             </section>
 
             <section id="code">
                 <h2>Code Example</h2>
-                <pre><code></code></pre>
+                <p>Here is a snippet from my custom Pet Sitter Countdown Timer. It calculates the remaining time and formats the output:</p>
+                <pre><code>const arrivalDate = new Date('2026-08-20T09:00:00').getTime();
+
+function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = arrivalDate - now;
+
+    const timerElement = document.getElementById('timer');
+
+    if (distance &lt; 0) {
+        timerElement.innerHTML = '&lt;div class="timer-box"&gt;&lt;span class="timer-num"&gt;Ваша работа выполнена! 🎉&lt;/span&gt;&lt;/div&gt;';
+        return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    timerElement.innerHTML = `
+        &lt;div class="timer-box"&gt;&lt;span class="timer-num"&gt;${days}&lt;/span&gt;&lt;span class="timer-label"&gt;дней&lt;/span&gt;&lt;/div&gt;
+        &lt;div class="timer-box"&gt;&lt;span class="timer-num"&gt;${String(hours).padStart(2, '0')}&lt;/span&gt;&lt;span class="timer-label"&gt;часов&lt;/span&gt;&lt;/div&gt;
+        &lt;div class="timer-box"&gt;&lt;span class="timer-num"&gt;${String(minutes).padStart(2, '0')}&lt;/span&gt;&lt;span class="timer-label"&gt;минут&lt;/span&gt;&lt;/div&gt;
+        &lt;div class="timer-box"&gt;&lt;span class="timer-num"&gt;${String(seconds).padStart(2, '0')}&lt;/span&gt;&lt;span class="timer-label"&gt;секунд&lt;/span&gt;&lt;/div&gt;
+    `;
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);</code></pre>
             </section>
 
             <section id="experience">
@@ -57,18 +96,25 @@
 
             <section id="education">
                 <h2>Education</h2>
-                <ul></ul>
+                <ul>
+                    <li><strong>Minsk Innovation University:</strong> Linguist &amp; Translator (English/German) (2018 – 2023)</li>
+                    <li><strong>RS School Course:</strong> “JS/FE Pre-School 2026 Q3” (In progress)</li>
+                </ul>
             </section>
 
             <section id="languages">
                 <h2>English Language</h2>
+                <p><strong>Level:</strong> C1 (Advanced)</p>
+                <p><strong>Practice:</strong> 5 years of professional teaching experience, constant communication with native speakers, and regular practice of specialized pedagogical methodology.</p>
             </section>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p></p>
+            <p>© 2026 Yauheniya Sarankova</p>
+            <a href="https://github.com/sorenkova" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://rs.school/" target="_blank" rel="noopener noreferrer"><img src="assets/img/rs-school-logo.svg" alt="RS School Logo"></a>
         </div>
     </footer>
 
