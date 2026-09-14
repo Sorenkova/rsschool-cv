@@ -21,3 +21,40 @@ body {
   margin: 0 auto;
   padding: 0 25px;
 }
+
+footer {
+  background-color: #334155;
+  color: #cbd5e1;
+  padding: 25px 0;
+  margin-top: auto;
+  font-size: 0.95rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a {
+  color: #cbd5e1;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer img {
+  height: 28px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(0.9);
+}
