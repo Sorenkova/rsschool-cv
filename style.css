@@ -49,6 +49,81 @@ nav a:hover {
   color: #ffffff;
 }
 
+main {
+  flex: 1;
+  padding: 45px 0;
+  background-color: #ffffff;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+section {
+  width: 100%;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 30px;
+}
+
+#profile {
+  text-align: center;
+  border: none;
+}
+
+#profile img {
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5%;
+  border: 3px solid #334155;
+  margin-top: 15px;
+}
+
+h1 {
+  margin: 15px 0 0;
+  font-size: 2.3rem;
+  color: #334155;
+  letter-spacing: -0.5px;
+}
+
+#profile p {
+  font-size: 1.15rem;
+  color: #64748b;
+  margin: 5px 0 0;
+}
+
+h2 {
+  color: #334155;
+  text-transform: uppercase;
+  font-size: 1.15rem;
+  letter-spacing: 1.2px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+main a {
+  color: #334155;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+main a:hover {
+  color: #0f172a;
+  background-color: #f1f5f9;
+  border-radius: 2px;
+}
+
 footer {
   background-color: #334155;
   color: #cbd5e1;
