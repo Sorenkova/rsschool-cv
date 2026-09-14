@@ -22,6 +22,33 @@ body {
   padding: 0 25px;
 }
 
+header {
+  background-color: #334155;
+  padding: 22px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
 footer {
   background-color: #334155;
   color: #cbd5e1;
