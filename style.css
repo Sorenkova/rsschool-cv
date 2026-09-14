@@ -124,6 +124,42 @@ main a:hover {
   border-radius: 2px;
 }
 
+ul, ol {
+  padding-left: 25px;
+  margin: 10px 0;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+pre {
+  background-color: #f8fafc;
+  color: #1e293b;
+  padding: 18px 20px;
+  border-left: 4px solid #334155;
+  border-radius: 0 6px 6px 0;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  margin: 15px 0;
+}
+
+code {
+  font-family: 'Consolas', 'Courier New', monospace;
+  color: #0f172a;
+}
+
+.project-img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #334155;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  margin-top: 20px;
+}
+
 footer {
   background-color: #334155;
   color: #cbd5e1;
